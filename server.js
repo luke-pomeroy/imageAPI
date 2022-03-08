@@ -3,11 +3,11 @@ const resize = require('./resize')
 const server = express()
 
 const SimpleNodeLogger = require('simple-node-logger'),
-    opts = {
-        logFilePath:'imageapi-errors.log',
-        timestampFormat:'YYYY-MM-DD HH:mm:ss.SSS'
-    },
-log = SimpleNodeLogger.createSimpleLogger( opts )
+  opts = {
+    logFilePath: 'imageapi-errors.log',
+    timestampFormat: 'YYYY-MM-DD HH:mm:ss.SSS'
+  },
+  log = SimpleNodeLogger.createSimpleLogger(opts)
 log.setLevel('error')
 
 server.get('/', (req, res) => {
