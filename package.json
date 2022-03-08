@@ -1,0 +1,17 @@
+{
+  "name": "imageapi",
+  "version": "1.0.0",
+  "description": "Image API for serving images from networked drive.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-windows": "^0.1.14",
+    "sharp": "^0.23.2",
+    "simple-node-logger": "^18.12.24"
+  }
+}
